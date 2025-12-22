@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gubo — Портфолио (Монтаж / Анимации)</title>
+  <title>Gubo — Портфолио</title>
   <meta name="description" content="Портфолио работ: монтаж, анимации, motion." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
@@ -25,15 +25,13 @@
   </header>
 
   <main id="top">
-    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-text">
+        <div>
           <p class="badge">Монтаж • Анимации • Motion</p>
           <h1>Портфолио работ</h1>
           <p class="lead">
-            Здесь собраны мои видео-работы. Форматы: <strong>16:9</strong> и <strong>9:16 (Reels)</strong>.
-            Никаких форм и лишнего — просто посмотреть и выйти.
+            Форматы: <strong>16:9</strong> и <strong>9:16 (Reels)</strong>. Клик по превью запускает видео.
           </p>
 
           <div class="actions">
@@ -51,47 +49,23 @@
 
         <div class="hero-card">
           <div class="hero-card-title">Быстрое резюме</div>
-
-          <div class="hero-card-row">
-            <div class="dot"></div>
-            <div>
-              <div class="hero-card-strong">Сильные стороны</div>
-              <div class="muted">ритм, чистый монтаж, аккуратные эффекты, понятная подача</div>
-            </div>
-          </div>
-
-          <div class="hero-card-row">
-            <div class="dot"></div>
-            <div>
-              <div class="hero-card-strong">Форматы</div>
-              <div class="muted">YouTube / Shorts / Reels / TikTok</div>
-            </div>
-          </div>
-
-          <div class="hero-card-row">
-            <div class="dot"></div>
-            <div>
-              <div class="hero-card-strong">Экспорт</div>
-              <div class="muted">FullHD / 4K (по задаче)</div>
-            </div>
-          </div>
+          <div class="hero-card-row"><div class="dot"></div><div><div class="hero-card-strong">Сильные стороны</div><div class="muted">ритм, чистый монтаж, эффекты, подача</div></div></div>
+          <div class="hero-card-row"><div class="dot"></div><div><div class="hero-card-strong">Форматы</div><div class="muted">YouTube / Shorts / Reels / TikTok</div></div></div>
+          <div class="hero-card-row"><div class="dot"></div><div><div class="hero-card-strong">Экспорт</div><div class="muted">FullHD / 4K (по задаче)</div></div></div>
         </div>
       </div>
     </section>
 
-    <!-- WORKS -->
     <section id="works" class="section">
       <div class="container">
         <div class="section-head">
-          <h2>Работы (30)</h2>
-          <p class="muted">Кликни по превью — видео запустится. Тут всё для просмотра портфолио.</p>
+          <h2>Работы</h2>
+          <p class="muted">Главное: видео НЕ зумится (contain), поэтому композиция сохраняется.</p>
         </div>
 
-        <!-- 16:9 -->
         <h3 class="subhead">Видео 16:9</h3>
         <div class="video-grid wide-grid">
-          <!-- work01..work15 -->
-          <!-- Шаблон: меняешь только номер workXX -->
+          <!-- 01–15 -->
           <article class="video-card">
             <div class="frame ratio-16x9 video-tile">
               <video preload="metadata" playsinline poster="./posters/work01.jpg">
@@ -100,29 +74,30 @@
               <button class="tap-area" type="button" aria-label="Воспроизвести"></button>
               <div class="tap-icon">▶</div>
             </div>
-            <div class="meta"><h3>Анимация персонажа</h3><p class="muted">16:9</p></div>
+            <div class="meta"><h3>Work 01</h3><p class="muted">16:9</p></div>
           </article>
 
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work02.jpg"><source src="./media/work02.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Анимация ко дню валентина</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work03.jpg"><source src="./media/work03.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Шейповый ролик</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work04.jpg"><source src="./media/work04.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Анимация композиций</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work05.jpg"><source src="./media/work05.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>анимация лого</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work06.jpg"><source src="./media/work06.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>шейповая анимации</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work07.jpg"><source src="./media/work07.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>путешествия кубика</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work08.jpg"><source src="./media/work08.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>анимация петушка - R1se мой старый ник</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work09.jpg"><source src="./media/work09.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>персонажная анимация</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work10.jpg"><source src="./media/work10.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>паралакс анимация</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work11.jpg"><source src="./media/work11.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>заставка - монтаж игры</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work12.jpg"><source src="./media/work12.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>векторная анимация</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work13.jpg"><source src="./media/work13.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Персонажная анимация битвы</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work14.jpg"><source src="./media/work14.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>шейповая анимация</h3><p class="muted">16:9</p></div></article>
-          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work15.jpg"><source src="./media/work15.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>скоро...</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work02.jpg"><source src="./media/work02.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 02</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work03.jpg"><source src="./media/work03.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 03</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work04.jpg"><source src="./media/work04.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 04</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work05.jpg"><source src="./media/work05.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 05</h3><p class="muted">16:9</p></div></article>
+
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work06.jpg"><source src="./media/work06.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 06</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work07.jpg"><source src="./media/work07.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 07</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work08.jpg"><source src="./media/work08.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 08</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work09.jpg"><source src="./media/work09.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 09</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work10.jpg"><source src="./media/work10.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 10</h3><p class="muted">16:9</p></div></article>
+
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work11.jpg"><source src="./media/work11.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 11</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work12.jpg"><source src="./media/work12.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 12</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work13.jpg"><source src="./media/work13.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 13</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work14.jpg"><source src="./media/work14.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 14</h3><p class="muted">16:9</p></div></article>
+          <article class="video-card"><div class="frame ratio-16x9 video-tile"><video preload="metadata" playsinline poster="./posters/work15.jpg"><source src="./media/work15.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 15</h3><p class="muted">16:9</p></div></article>
         </div>
 
-        <!-- 9:16 -->
         <h3 class="subhead">Reels 9:16</h3>
         <div class="video-grid reel-grid">
-          <!-- work16..work30 -->
+          <!-- 16–30 -->
           <article class="video-card">
             <div class="frame ratio-9x16 video-tile">
               <video preload="metadata" playsinline poster="./posters/work16.jpg">
@@ -131,41 +106,40 @@
               <button class="tap-area" type="button" aria-label="Воспроизвести"></button>
               <div class="tap-icon">▶</div>
             </div>
-            <div class="meta"><h3>reels анимации карты</h3><p class="muted">9:16</p></div>
+            <div class="meta"><h3>Work 16</h3><p class="muted">9:16</p></div>
           </article>
 
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work17.jpg"><source src="./media/work17.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>reels-графика</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work18.jpg"><source src="./media/work18.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>нейросети + анимация</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work19.jpg"><source src="./media/work19.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>моушн reels</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work20.jpg"><source src="./media/work20.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>тик ток эдит 1</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work21.jpg"><source src="./media/work21.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>reels в стиле Арсена Маркаряна</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work22.jpg"><source src="./media/work22.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>тик ток эдит 2</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work23.jpg"><source src="./media/work23.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>reels говорящая голова</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work24.jpg"><source src="./media/work24.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>гранж стиль</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work25.jpg"><source src="./media/work25.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>эдит - Арсен маркарян</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work26.jpg"><source src="./media/work26.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>2d анимация</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work27.jpg"><source src="./media/work27.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>симуляция падения</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work28.jpg"><source src="./media/work28.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 28</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work29.jpg"><source src="./media/work29.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 29</h3><p class="muted">9:16</p></div></article>
-          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work30.jpg"><source src="./media/work30.mp4" type="video/mp4" /></video><button class="tap-area" type="button" aria-label="Воспроизвести"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 30</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work17.jpg"><source src="./media/work17.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 17</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work18.jpg"><source src="./media/work18.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 18</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work19.jpg"><source src="./media/work19.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 19</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work20.jpg"><source src="./media/work20.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 20</h3><p class="muted">9:16</p></div></article>
+
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work21.jpg"><source src="./media/work21.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 21</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work22.jpg"><source src="./media/work22.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 22</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work23.jpg"><source src="./media/work23.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 23</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work24.jpg"><source src="./media/work24.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 24</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work25.jpg"><source src="./media/work25.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 25</h3><p class="muted">9:16</p></div></article>
+
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work26.jpg"><source src="./media/work26.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 26</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work27.jpg"><source src="./media/work27.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 27</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work28.jpg"><source src="./media/work28.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 28</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work29.jpg"><source src="./media/work29.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 29</h3><p class="muted">9:16</p></div></article>
+          <article class="video-card"><div class="frame ratio-9x16 video-tile"><video preload="metadata" playsinline poster="./posters/work30.jpg"><source src="./media/work30.mp4" type="video/mp4" /></video><button class="tap-area" type="button"></button><div class="tap-icon">▶</div></div><div class="meta"><h3>Work 30</h3><p class="muted">9:16</p></div></article>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
     <section id="about" class="section alt">
       <div class="container about">
         <h2>Обо мне</h2>
         <p class="muted">
-          Меня зовут Илья, я motion-дизайнер. Более трёх лет создаю анимацию и видеоконтент: от рекламы и инфографики до интро-заставок и визуальных эффектов.
-          Работаю в After Effects, Premiere Pro, Photoshop и Illustrator, а также использую нейросетевые инструменты там, где они ускоряют и улучшают результат.
-          Хочу развиваться в команде, где ценят качество и свежий подход. Этот сайт — для ознакомления (портфолио/резюме).
-          Также я автор YouTube-канала Gubo.
+          Меня зовут Илья, я motion-дизайнер. Более трёх лет создаю анимацию и видеоконтент.
+          Работаю в After Effects, Premiere Pro, Photoshop и Illustrator, использую нейросетевые инструменты.
+          Этот сайт — для ознакомления (портфолио/резюме). Также я автор YouTube-канала Gubo.
         </p>
       </div>
     </section>
 
-    <!-- CONTACTS -->
     <section id="contacts" class="section">
       <div class="container">
         <div class="section-head">
@@ -178,12 +152,10 @@
             <div class="contact-title">YouTube</div>
             <a href="https://www.youtube.com/@Gubo-u1h" target="_blank" rel="noopener">youtube.com/@Gubo-u1h</a>
           </div>
-
           <div class="contact">
             <div class="contact-title">Telegram</div>
             <a href="https://t.me/Gu6o0o0" target="_blank" rel="noopener">@Gu6o0o0</a>
           </div>
-
           <div class="contact">
             <div class="contact-title">Email</div>
             <a href="mailto:gubo0o9o0@gmail.com">gubo0o9o0@gmail.com</a>
@@ -200,10 +172,8 @@
     </footer>
   </main>
 
-  <!-- CLICK-TO-PLAY -->
   <script>
     // Клик по превью запускает видео и включает контролы.
-    // Параллельно ставим на паузу остальные, чтобы не орали вместе.
     document.querySelectorAll('.video-tile').forEach(tile => {
       const v = tile.querySelector('video');
       const btn = tile.querySelector('.tap-area');
@@ -212,7 +182,6 @@
         document.querySelectorAll('.video-tile video').forEach(other => {
           if (other !== v) other.pause();
         });
-
         v.controls = true;
         v.play();
         tile.classList.add('started');
@@ -221,5 +190,3 @@
   </script>
 </body>
 </html>
-
-
